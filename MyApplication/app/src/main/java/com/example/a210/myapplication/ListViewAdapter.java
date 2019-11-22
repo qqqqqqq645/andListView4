@@ -64,7 +64,7 @@ public class ListViewAdapter extends BaseAdapter {
                         Toast.makeText(context,"'확인' 버튼을 눌렀습니다.",Toast.LENGTH_SHORT).show();
                         //전화번호를 표시만 해주는 기능
                         //Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:010-1111-2222"));
-                        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel"+listViewItemList.get(pos).getDesc()));
+                        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+listViewItemList.get(pos).getDesc()));
                         context.startActivity(intent);
                     }
                 });
