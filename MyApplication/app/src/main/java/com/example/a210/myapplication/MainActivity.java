@@ -23,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        /*  리스트 한칸에 표시하는 데이터 클래스생성 을  담는 컬렉션객체 생성 - 어댑터로 그 객체를 화면에 표시
+        *
+        */
         ListView listview = null;
         ListViewAdapter adapter;
         arrays = new ArrayList<ListViewItem>();

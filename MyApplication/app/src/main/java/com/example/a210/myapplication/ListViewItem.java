@@ -1,6 +1,6 @@
 package com.example.a210.myapplication;
 import android.graphics.drawable.Drawable;
-public class ListViewItem {
+public class ListViewItem { //리스트뷰 안에 들어갈 내용
     private Drawable iconDrawable;
     private String titleStr;//이름
     private String descStr;//전화번호

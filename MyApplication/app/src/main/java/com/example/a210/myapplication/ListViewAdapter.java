@@ -21,7 +21,9 @@ public class ListViewAdapter extends BaseAdapter {
     private ArrayList<ListViewItem> listViewItemList = new ArrayList<>();
 
     public ListViewAdapter() {
-
+        /*세마포어 개념
+        * a b c 클래스가 공유하는 static변수
+        * 한번에하나씩만 static변수에 접근하게해서 데이터 일관성 유지*/
     }
 
     public ListViewAdapter(ArrayList<ListViewItem> data) {
@@ -95,7 +97,7 @@ public class ListViewAdapter extends BaseAdapter {
 
         });
         */
-
+        //프로필 사진 클릭시 프로필액티비티
         ImageView button2 = (ImageView) convertView.findViewById(R.id.imageView1);
         button2.setOnClickListener(new View.OnClickListener(){
             @Override
